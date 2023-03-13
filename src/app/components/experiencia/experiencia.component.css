@@ -1,0 +1,142 @@
+body {
+    background-image: url(../../../assets/fondos/fondo4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#titulo {
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 45px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+#fondo9{
+    width: 600px;
+    margin-left: 10%;
+    box-shadow: 30px 30px 30px black;
+    margin-top: 10%;
+
+ }
+ #nombre {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media (min-width: 320px){
+    #fondo9{
+        width: 250px;
+        margin-left: 7%;
+        box-shadow: 10px 10px 10px black;
+        margin-top: 10%;
+     }   
+
+     h1{
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+     h2{
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    #nombre {
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+     p{
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (min-width: 375px){
+    #fondo9{
+        width: 280px;
+        margin-left: 10%;
+        box-shadow: 10px 10px 10px black;
+        margin-top: 10%;
+     }   
+}
+
+@media (min-width: 768px){
+    #fondo9{
+        width: 400px;
+        margin-left: 30%;
+        box-shadow: 10px 10px 10px black;
+        margin-top: 10%;
+     }   
+
+     h1{
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 45px;
+        margin-left: 20%;
+        margin-top: 5%;
+        margin-right: 10%;
+    }
+
+     h2{
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+
+    #nombre {
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 35px;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+
+     p{
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+}

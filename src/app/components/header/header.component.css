@@ -1,0 +1,70 @@
+div{
+    background-color: hwb(217 16% 16%);
+}
+
+.logo{
+    width: 400px;
+}
+
+.social{
+    width: 40px;
+    padding-bottom: 10%;
+}
+
+.socialContainer{
+    float: right;
+    margin-top: 10%;
+    margin-right: 30%;
+    padding-left: 4%; 
+    padding-right: 4%;
+}
+
+@media (min-width: 320px){
+    .logo{
+        width: 200px;
+        margin-left: 18%;
+        margin-top: 4%;
+     }  
+     
+    .social {
+        width: 25px;
+        margin-bottom: 20%;
+    }
+    .socialContainer{
+        float:right;
+        margin-top: 12%;
+        margin-right: 10%;
+        padding-left: 30%; 
+        padding-right: 5%;
+    }
+}
+
+@media (min-width: 375px){
+    .logo{
+        width: 230px;
+        margin-left: 4%;
+     }   
+     .social {
+        width: 30px;   
+    }
+}
+
+@media (min-width: 1024px){
+    .logo{
+        width: 230px;
+        margin-left: 4%;
+     }   
+     .social {
+        width: 30px;     
+    }
+}
+
+@media (min-width: 1044px){
+    .logo{
+        width: 230px;
+        margin-left: 4%;
+     }   
+     .social {
+        width: 30px;      
+    }
+}

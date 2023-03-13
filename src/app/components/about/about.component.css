@@ -1,0 +1,150 @@
+body 
+{
+    background-image: url(../../../assets/fondos/fondo4.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.row{
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+
+#photo{
+    width: 200px;
+    margin-left: 70%;
+    box-shadow: 30px 30px 30px black;
+    margin-top: 10%;
+ }
+
+h1{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 45px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+h2{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+ #nombre {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+@media (min-width: 320px){
+    #photo{
+        width: 150px;
+        margin-left: 25%;
+        box-shadow: 10px 10px 10px black;
+        margin-top: 10%;
+     }   
+
+     h1{
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 20%;
+        margin-top: 5%;
+        margin-right: 10%;
+    }
+
+     h2{
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+
+    #nombre {
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+
+     p{
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+}
+
+@media (min-width: 375px){
+    #photo{
+        width: 140px;
+        margin-left: 30%;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0);
+        margin-top: 10%;
+     }   
+}
+
+@media (min-width: 768px){
+    #photo{
+        width: 200px;
+        margin-left: 30%;
+        box-shadow: 10px 10px 10px black;
+        margin-top: 60%;
+     }   
+
+     h1{
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 45px;
+        margin-left: 20%;
+        margin-top: 5%;
+        margin-right: 10%;
+    }
+
+     h2{
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+
+    #nombre {
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 35px;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+
+     p{
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+}
